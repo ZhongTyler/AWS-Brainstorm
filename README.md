@@ -1,5 +1,9 @@
 # Brainstorm
 
+<!-- release:2.1.0 -->
+旧项目重做先确认当前想做的体验，再用旧版片段核对承载关系；目标已明确的局部修改直接推进。新增对照案例只用于演练，不代表用户已采用或效果获验证。
+[Release and recovery](docs/releases/2.1.0.md)
+
 
 [English](README.en.md)
 
