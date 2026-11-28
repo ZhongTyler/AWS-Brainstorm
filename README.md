@@ -1,8 +1,8 @@
 # Brainstorm
 
-<!-- release:2.1.0 -->
-旧项目重做先确认当前想做的体验，再用旧版片段核对承载关系；目标已明确的局部修改直接推进。新增对照案例只用于演练，不代表用户已采用或效果获验证。
-[Release and recovery](docs/releases/2.1.0.md)
+<!-- release:2.2.0 -->
+四项发散方法完成实践来源与自编操作适配，当前19个ready方法；12张自编视角卡正式可用。移除不再保留的否决项，按任务缺口选用，不把资格或合成案例当作效果验证。
+[Release and recovery](docs/releases/2.2.0.md)
 
 
 [English](README.en.md)
@@ -53,7 +53,7 @@ Brainstorm 帮助人与 Agent 共同探索、形成想法并选择概念。默�
 
 ## 方法与多源
 
-[方法路由](methods/METHOD_ROUTER.md) 按卡点选择认知操作。当前 15 ready、4 placeholder、1 rejected 的身份以 [catalog](methods/catalog.json) 为准；ready 表示可执行资格，不能证明普遍有效。方法来源、Agent 适配和实际收益分别判断。
+[方法路由](methods/METHOD_ROUTER.md) 按卡点选择认知操作。当前 19 ready、0 placeholder、0 rejected 的身份以 [catalog](methods/catalog.json) 为准；ready 表示可执行资格，不能证明普遍有效。方法来源、Agent 适配和实际收益分别判断。
 
 [Perspective](perspectives/README.md) 按遗漏选择，不要求全部执行。更多角色、标题或轮数不等于发散更好。
 

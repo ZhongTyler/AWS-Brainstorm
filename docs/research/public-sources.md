@@ -30,3 +30,12 @@
 - SRC-AN-002: [Structure-Mapping: A Theoretical Framework for Analogy](https://groups.psych.northwestern.edu/gentner/papers/Gentner83.2b.pdf) — Dedre Gentner / Cognitive Science 7 (1983); peer-reviewed-research; 2026-09-08; link-only / metadata-and-facts
 
 机器元数据：[public-sources.json](public-sources.json)。
+
+## 2026-11-28 新采用方法的实践来源
+
+这些是实践核对来源，不均为首创原著。仅保留书目与事实级说明，不复制页面正文、教材、图示或专有案例；本仓许可不覆盖外部作品。Google Crazy 8s 只核了搜索 Directions 与官方模板摘要，直开无可读正文；NM 采用已核实践路线，不声称通读原著或覆盖全部变体。文字适配、限制与合成案例由本仓编写，资格与真实效果分别判断。
+
+- SRC-C8-001: [Crazy 8s](https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s) — Google Design Sprint Kit; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
+- SRC-LB-001: [Lotus blossom](https://www.sessionlab.com/methods/lotus-blossom) — Digital Society School / SessionLab; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
+- SRC-MU-001: [Mash-Ups](https://www.designkit.org/methods/mash-ups.html) — IDEO.org; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
+- SRC-NM-001: [NM法](https://www.soken-ri.co.jp/souzougihou/1-6/) — 株式会社 創造開発研究所; authoritative-practice; 2026-11-28; link-only / metadata-and-facts

@@ -4,7 +4,7 @@
 
 - Perspective ID: `gd-feel-feedback`
 - Domain: `game-design`
-- Status: `validating`
+- Status: `ready`
 - Origin: `self-authored`
 - 可用条件: 当前任务涉及游戏设计且有相关缺口，或用户显式请求
 

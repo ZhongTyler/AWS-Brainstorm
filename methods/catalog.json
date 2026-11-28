@@ -116,19 +116,16 @@
       "method_id": "crazy-8s",
       "display_name": "Crazy 8s",
       "category": "divergence",
-      "status": "placeholder",
-      "path": "methods/placeholders/crazy-8s.md",
-      "source_ids": [],
-      "single_user_ai_adaptation": false,
-      "version": 1,
-      "positive_case_id": null,
-      "negative_case_id": null,
-      "research_gap": "Verify the original visual time-box protocol and define a non-drawing, single-user AI adaptation without simulating eight participants.",
-      "ready_conditions": [
-        "At least one authoritative or original source is reviewed.",
-        "Single-user AI adaptation and method boundaries are documented.",
-        "Positive and negative behavior cases pass semantic review."
+      "status": "ready",
+      "path": "methods/divergence/crazy-8s.md",
+      "source_ids": [
+        "SRC-C8-001"
       ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-C8-P01",
+      "negative_case_id": "CASE-C8-N01",
+      "research_gap": null,
       "recommended_with": [
         "how-might-we",
         "kj-affinity"
@@ -170,38 +167,20 @@
       "method_id": "lotus-blossom",
       "display_name": "Lotus Blossom",
       "category": "divergence",
-      "status": "placeholder",
-      "path": "methods/placeholders/lotus-blossom.md",
-      "source_ids": [],
-      "single_user_ai_adaptation": false,
-      "version": 1,
-      "positive_case_id": null,
-      "negative_case_id": null,
-      "research_gap": "Verify the canonical cell-expansion structure and define depth, stopping, and lineage rules that avoid combinatorial document growth.",
-      "ready_conditions": [
-        "At least one authoritative or original source is reviewed.",
-        "Single-user AI adaptation and method boundaries are documented.",
-        "Positive and negative behavior cases pass semantic review."
+      "status": "ready",
+      "path": "methods/divergence/lotus-blossom.md",
+      "source_ids": [
+        "SRC-LB-001"
       ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-LB-P01",
+      "negative_case_id": "CASE-LB-N01",
+      "research_gap": null,
       "recommended_with": [
         "how-might-we",
         "kj-affinity"
       ]
-    },
-    {
-      "method_id": "six-thinking-hats",
-      "display_name": "Six Thinking Hats",
-      "category": "synthesis",
-      "status": "rejected",
-      "path": "methods/placeholders/six-thinking-hats.md",
-      "source_ids": [],
-      "single_user_ai_adaptation": false,
-      "version": 1,
-      "positive_case_id": null,
-      "negative_case_id": null,
-      "research_gap": null,
-      "rejected_at": "2026-07-30",
-      "rejected_reason": "TB-D-029: core needs covered by perspectives mechanism; avoiding overlapping systems."
     },
     {
       "method_id": "reverse-brainstorming",
@@ -300,19 +279,16 @@
       "method_id": "mashup",
       "display_name": "Mashup",
       "category": "divergence",
-      "status": "placeholder",
-      "path": "methods/placeholders/mashup.md",
-      "source_ids": [],
-      "single_user_ai_adaptation": false,
-      "version": 1,
-      "positive_case_id": null,
-      "negative_case_id": null,
-      "research_gap": "Clarify the method boundary versus Forced Connections and Morphological Matrix, including base-object identity and combination traceability.",
-      "ready_conditions": [
-        "At least one authoritative or original source is reviewed.",
-        "Single-user AI adaptation and method boundaries are documented.",
-        "Positive and negative behavior cases pass semantic review."
+      "status": "ready",
+      "path": "methods/divergence/mashup.md",
+      "source_ids": [
+        "SRC-MU-001"
       ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-MU-P01",
+      "negative_case_id": "CASE-MU-N01",
+      "research_gap": null,
       "recommended_with": [
         "forced-connections",
         "morphological-matrix"
@@ -322,19 +298,16 @@
       "method_id": "nm-method",
       "display_name": "NM Method",
       "category": "divergence",
-      "status": "placeholder",
-      "path": "methods/placeholders/nm-method.md",
-      "source_ids": [],
-      "single_user_ai_adaptation": false,
-      "version": 1,
-      "positive_case_id": null,
-      "negative_case_id": null,
-      "research_gap": "Locate and translate authoritative Japanese or primary material, verify the method taxonomy, and define a faithful single-user AI adaptation.",
-      "ready_conditions": [
-        "At least one authoritative or original source is reviewed.",
-        "Single-user AI adaptation and method boundaries are documented.",
-        "Positive and negative behavior cases pass semantic review."
+      "status": "ready",
+      "path": "methods/divergence/nm-method.md",
+      "source_ids": [
+        "SRC-NM-001"
       ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-NM-P01",
+      "negative_case_id": "CASE-NM-N01",
+      "research_gap": null,
       "recommended_with": [
         "how-might-we",
         "kj-affinity"

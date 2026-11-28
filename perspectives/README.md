@@ -2,7 +2,7 @@
 
 Perspective帮助发现遗漏、构造另一种差异或检查候选假设；Method执行认知变换。视角卡是本仓自编提示，不是专家身份或独立证据。
 
-身份见[catalog.json](catalog.json)：6张core、6张game-design，均保持`validating`，没有因本次改写宣称实际收益已证实。历史`no_finding_streak`仅保留旧观测字段，不再作为自动必跑、撤卡或用户审批的计数器；没有finding也可能是已有分析已覆盖。
+身份见[catalog.json](catalog.json)：6张core、6张game-design，已按用户 2026-11-28 的决定全部正式采用，状态为 `ready`；按实际缺口使用，后续有反例再调整。历史`no_finding_streak`仅保留旧观测字段，不再作为自动必跑、撤卡或用户审批的计数器；没有finding也可能是已有分析已覆盖。
 
 ## 怎么选择
 
@@ -31,4 +31,4 @@ Perspective帮助发现遗漏、构造另一种差异或检查候选假设；Met
 
 卡中问题是可选提示，不要求逐题回答。没有事实时标推断/unknown，不假装进行了测试；多张卡引用同材料仍是一条证据链。用户决定重要方向，Agent可提出修改而不擅自接受/淘汰。
 
-新证据和反例按[方法维护](../methods/MAINTENANCE.md)限定调整；结构完整与一次合成示例不足以把validating改为效果已证实。卡片不能授权spawn、专家接管、remember或新增定时任务。
+新证据和反例按[方法维护](../methods/MAINTENANCE.md)限定调整；采用状态记录可用资格，效果依据单独保留。卡片不能授权spawn、专家接管、remember或新增定时任务。

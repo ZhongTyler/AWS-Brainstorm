@@ -4,7 +4,7 @@
 
 - Perspective ID: `user-experience`
 - Domain: `generic`
-- Status: `validating`
+- Status: `ready`
 - Origin: `self-authored`
 
 ---

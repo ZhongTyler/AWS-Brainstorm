@@ -28,9 +28,11 @@ foreach($required in @('scripts\resume-session.ps1','scripts\method-learning.mjs
 $public = [IO.File]::ReadAllText((Join-Path $root 'docs\research\public-sources.json'),$utf8) | ConvertFrom-Json
 foreach($source in $public.sources){Assert-Package (-not ($source.PSObject.Properties.Name -contains 'notes')) 'Private source notes leaked.'}
 $methods = Invoke-Json 'validate-method.ps1' @()
-Assert-Package ($methods.ready_count -eq 15 -and $methods.placeholder_count -eq 4) 'Method inventory drift.'
+Assert-Package ($methods.ready_count -eq 19 -and $methods.placeholder_count -eq 0) 'Method inventory drift.'
 $perspectives = [IO.File]::ReadAllText((Join-Path $root 'perspectives\catalog.json'),$utf8) | ConvertFrom-Json
 Assert-Package (@($perspectives.perspectives).Count -eq 12) 'Perspective inventory drift.'
+foreach($p in $perspectives.perspectives){Assert-Package ($p.status -ceq 'ready') 'Adopted perspective status drift.'}
+Assert-Package (-not(Test-Path -LiteralPath (Join-Path $root 'methods/placeholders/six-thinking-hats.md'))) 'Removed method file returned.'
 $playbooks = Invoke-Json 'validate-playbook.ps1' @()
 $adapters = Invoke-Json 'validate-adapters.ps1' @()
 Assert-Package ($playbooks.structure_passed -and $adapters.structure_passed -and $adapters.adapter_count -eq 3) 'Catalog validation failed.'

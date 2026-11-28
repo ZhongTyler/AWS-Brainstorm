@@ -1,8 +1,8 @@
 # Brainstorm
 
-<!-- release:2.1.0 -->
-Legacy redesign starts with the intended experience and concrete evidence from the old version. Clear local changes proceed directly. New contrast examples are synthetic practice material, not adopted product decisions or measured outcomes.
-[Release and recovery](docs/releases/2.1.0.md)
+<!-- release:2.2.0 -->
+Adds four ready divergence methods and adopts twelve self-authored perspective cards: nineteen ready methods, no live placeholder or rejected entry. Selection remains task-driven; readiness and synthetic examples do not establish real-user benefit.
+[Release and recovery](docs/releases/2.2.0.md)
 
 [简体中文](README.md)
 

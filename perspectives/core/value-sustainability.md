@@ -4,7 +4,7 @@
 
 - Perspective ID: `value-sustainability`
 - Domain: `generic`
-- Status: `validating`
+- Status: `ready`
 - Origin: `self-authored`
 
 ---

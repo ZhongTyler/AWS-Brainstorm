@@ -286,6 +286,50 @@
       "license_status": "link-only",
       "license": null,
       "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-C8-001",
+      "title": "Crazy 8s",
+      "author_or_owner": "Google Design Sprint Kit",
+      "source_level": "authoritative-practice",
+      "url": "https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-LB-001",
+      "title": "Lotus blossom",
+      "author_or_owner": "Digital Society School / SessionLab",
+      "source_level": "authoritative-practice",
+      "url": "https://www.sessionlab.com/methods/lotus-blossom",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-MU-001",
+      "title": "Mash-Ups",
+      "author_or_owner": "IDEO.org",
+      "source_level": "authoritative-practice",
+      "url": "https://www.designkit.org/methods/mash-ups.html",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-NM-001",
+      "title": "NM法",
+      "author_or_owner": "株式会社 創造開発研究所",
+      "source_level": "authoritative-practice",
+      "url": "https://www.soken-ri.co.jp/souzougihou/1-6/",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
     }
   ]
 }

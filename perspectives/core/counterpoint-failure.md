@@ -4,7 +4,7 @@
 
 - Perspective ID: `counterpoint-failure`
 - Domain: `generic`
-- Status: `validating`
+- Status: `ready`
 - Origin: `self-authored`
 
 ---

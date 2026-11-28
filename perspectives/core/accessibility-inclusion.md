@@ -4,7 +4,7 @@
 
 - Perspective ID: `accessibility-inclusion`
 - Domain: `generic`
-- Status: `validating`
+- Status: `ready`
 - Origin: `self-authored`
 
 ---
