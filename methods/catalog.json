@@ -312,6 +312,36 @@
         "how-might-we",
         "kj-affinity"
       ]
+    },
+    {
+      "method_id": "ccst-challenge-design",
+      "display_name": "CCST 挑战编排与变形",
+      "category": "synthesis",
+      "status": "ready",
+      "path": "methods/synthesis/ccst-challenge-design.md",
+      "source_ids": [
+        "SRC-CCST-001"
+      ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-CCST-P01",
+      "negative_case_id": "CASE-CCST-N01",
+      "research_gap": null
+    },
+    {
+      "method_id": "puzzle-dependency-graph",
+      "display_name": "谜题依赖图",
+      "category": "synthesis",
+      "status": "ready",
+      "path": "methods/synthesis/puzzle-dependency-graph.md",
+      "source_ids": [
+        "SRC-PDC-001"
+      ],
+      "single_user_ai_adaptation": true,
+      "version": 2,
+      "positive_case_id": "CASE-PDC-P01",
+      "negative_case_id": "CASE-PDC-N01",
+      "research_gap": null
     }
   ]
 }

@@ -330,6 +330,28 @@
       "license_status": "link-only",
       "license": null,
       "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-CCST-001",
+      "title": "使用马里奥方法设计关卡（四篇系列）",
+      "author_or_owner": "gamedevelopment.tutsplus.com 作者分析 / indienova 高鸣译",
+      "source_level": "secondary-practice",
+      "url": "https://indienova.com/indie-game-development/how-to-design-levels-with-the-super-mario-world-method-in-chinese/",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
+    },
+    {
+      "source_id": "SRC-PDC-001",
+      "title": "Puzzle Dependency Charts",
+      "author_or_owner": "Ron Gilbert",
+      "source_level": "authoritative-practice",
+      "url": "https://www.grumpygamer.com/puzzle_dependency_charts/",
+      "accessed_on": "2026-11-28",
+      "license_status": "link-only",
+      "license": null,
+      "reuse_scope": "metadata-and-facts"
     }
   ]
 }

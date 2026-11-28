@@ -1,8 +1,8 @@
 # Brainstorm
 
-<!-- release:2.2.0 -->
-Adds four ready divergence methods and adopts twelve self-authored perspective cards: nineteen ready methods, no live placeholder or rejected entry. Selection remains task-driven; readiness and synthetic examples do not establish real-user benefit.
-[Release and recovery](docs/releases/2.2.0.md)
+<!-- release:2.3.0 -->
+Adds CCST challenge design, puzzle dependency graphs, six game perspectives and four reuse recipes with synthetic cases. Twenty-one ready methods and eighteen ready cards (six generic, twelve game-specific) remain optional and task-driven; no measured real-user benefit is claimed.
+[Release and recovery](docs/releases/2.3.0.md)
 
 [简体中文](README.md)
 

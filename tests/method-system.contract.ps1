@@ -45,16 +45,16 @@ function Invoke-ExpectedFailure {
 
 $validation = Invoke-SuccessJson -ScriptPath $validateMethod -Arguments @()
 Assert-Test -Condition ([bool]$validation.structure_passed) -Message 'Method validation did not pass.'
-Assert-Test -Condition ([int]$validation.ready_count -eq 19) -Message 'TB-005 must expose exactly nineteen ready methods.'
+Assert-Test -Condition ([int]$validation.ready_count -eq 21) -Message 'TB-005 must expose exactly twenty-one ready methods.'
 Assert-Test -Condition ([int]$validation.placeholder_count -eq 0) -Message 'TB-005 must expose exactly zero placeholders.'
-Assert-Test -Condition ([int]$validation.source_count -eq 30) -Message 'Current source inventory must contain thirty records; this is not a fresh-read or efficacy count.'
+Assert-Test -Condition ([int]$validation.source_count -eq 32) -Message 'Current source inventory must contain thirty-two records; this is not a fresh-read or efficacy count.'
 $expectedIds = @('brain-dump', 'how-might-we', 'scamper', 'forced-connections', 'analogy', 'morphological-matrix', 'kj-affinity', 'anchored-decision-matrix', 'assumption-reversal', 'first-principles', 'future-backcasting', 'reverse-brainstorming', 'worst-possible-idea', 'brainwriting-6-3-5', 'disney-strategy', 'crazy-8s', 'lotus-blossom', 'mashup', 'nm-method')
 foreach ($methodId in $expectedIds) {
     Assert-Test -Condition (@($validation.method_ids) -ccontains $methodId) -Message "Missing ready method: $methodId"
 }
 
 $readyList = Invoke-SuccessJson -ScriptPath $listMethods -Arguments @()
-Assert-Test -Condition ([int]$readyList.count -eq 19) -Message 'Default list must return nineteen ready methods.'
+Assert-Test -Condition ([int]$readyList.count -eq 21) -Message 'Default list must return twenty-one ready methods.'
 Assert-Test -Condition ([string]$readyList.selection_note -like '*semantic*') -Message 'List output must preserve the semantic selection boundary.'
 $divergenceList = Invoke-SuccessJson -ScriptPath $listMethods -Arguments @('-Category', 'divergence')
 Assert-Test -Condition ([int]$divergenceList.count -eq 11) -Message 'Divergence filter must return the eleven ready divergence methods.'
@@ -71,7 +71,7 @@ Invoke-ExpectedFailure -ScriptPath $validateMethod -Arguments @('-MethodId', 'mi
 
 $catalog = [IO.File]::ReadAllText((Join-Path $projectRoot 'methods\catalog.json'), $utf8NoBom) | ConvertFrom-Json
 $perspectives = ([IO.File]::ReadAllText((Join-Path $projectRoot 'perspectives/catalog.json'), $utf8NoBom) | ConvertFrom-Json).perspectives
-Assert-Test -Condition (@($perspectives).Count -eq 12) -Message 'Adoption must preserve all twelve perspective identities.'
+Assert-Test -Condition (@($perspectives).Count -eq 18) -Message 'Adoption must preserve all eighteen perspective identities.'
 foreach ($perspective in $perspectives) {
     Assert-Test -Condition ([string]$perspective.status -ceq 'ready') -Message "Adopted perspective is not ready: $($perspective.perspective_id)"
     $perspectiveText = [IO.File]::ReadAllText((Join-Path $projectRoot ([string]$perspective.path)), $utf8NoBom)
@@ -169,3 +169,8 @@ try {
 }
 
 Write-Output 'Brainstorm method system contract: PASS'
+
+foreach($id in @('ccst-challenge-design','puzzle-dependency-graph')) { Assert-Test (@($catalog.methods.method_id) -ccontains $id) ('Missing ready game method: '+$id) }
+Assert-Test (@($perspectives | Where-Object {$_.domain -ceq 'generic'}).Count -eq 6) 'Generic perspective count drift.'
+Assert-Test (@($perspectives | Where-Object {$_.domain -ceq 'game-design'}).Count -eq 12) 'Game perspective count drift.'
+foreach($p in @('playbooks/game-concept/DESIGN_RECIPES.md','examples/co-creation/game-design-cases.md','docs/research/game-design-sources.md')){Assert-Test (Test-Path -LiteralPath (Join-Path $projectRoot $p)) ('Missing public game consumer: '+$p)}

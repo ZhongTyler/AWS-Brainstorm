@@ -39,3 +39,10 @@
 - SRC-LB-001: [Lotus blossom](https://www.sessionlab.com/methods/lotus-blossom) — Digital Society School / SessionLab; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
 - SRC-MU-001: [Mash-Ups](https://www.designkit.org/methods/mash-ups.html) — IDEO.org; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
 - SRC-NM-001: [NM法](https://www.soken-ri.co.jp/souzougihou/1-6/) — 株式会社 創造開発研究所; authoritative-practice; 2026-11-28; link-only / metadata-and-facts
+
+## 游戏设计方法实践来源
+
+CCST是分析作者对马里奥的逆向归纳，不是任天堂官方规程；谜题图的知识与恢复层为本仓适配。只保留必要元数据和自编方法/案例，不复制Knowledge正文、外部图示或长篇原文。实际读取及限制见[来源说明](game-design-sources.md)。
+
+- SRC-CCST-001: [使用马里奥方法设计关卡（四篇系列）](https://indienova.com/indie-game-development/how-to-design-levels-with-the-super-mario-world-method-in-chinese/) — gamedevelopment.tutsplus.com 作者分析 / indienova 高鸣译; secondary-practice; link-only / metadata-and-facts
+- SRC-PDC-001: [Puzzle Dependency Charts](https://www.grumpygamer.com/puzzle_dependency_charts/) — Ron Gilbert; authoritative-practice; link-only / metadata-and-facts

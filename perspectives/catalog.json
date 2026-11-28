@@ -63,7 +63,7 @@
         },
         {
             "perspective_id": "gd-first-run-curve",
-            "display_name": "首次体验曲线",
+            "display_name": "学习与掌握",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/first-run-curve.md",
@@ -73,7 +73,7 @@
         },
         {
             "perspective_id": "gd-player-motivation",
-            "display_name": "玩家动机差异",
+            "display_name": "目标玩家与体验承诺",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/player-motivation.md",
@@ -83,7 +83,7 @@
         },
         {
             "perspective_id": "gd-economy-evolution",
-            "display_name": "数值与经济长期演化",
+            "display_name": "成长、奖励与资源演化",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/economy-evolution.md",
@@ -93,7 +93,7 @@
         },
         {
             "perspective_id": "gd-degeneracy",
-            "display_name": "最优解崩塌（Degeneracy）",
+            "display_name": "策略空间与强组合边界",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/degeneracy.md",
@@ -103,7 +103,7 @@
         },
         {
             "perspective_id": "gd-feel-feedback",
-            "display_name": "手感与反馈链",
+            "display_name": "操作表达、判断窗口与反馈",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/feel-feedback.md",
@@ -113,10 +113,70 @@
         },
         {
             "perspective_id": "gd-content-throughput",
-            "display_name": "内容消耗与产能比",
+            "display_name": "有限篇幅的内容价值与产能",
             "domain": "game-design",
             "status": "ready",
             "path": "perspectives/domains/game-design/content-throughput.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-meaningful-choice",
+            "display_name": "有效选择与玩家能动性",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/meaningful-choice.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-mechanic-coherence",
+            "display_name": "机制协同与认知切换",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/mechanic-coherence.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-information-discovery",
+            "display_name": "信息、推理与发现",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/information-discovery.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-space-encounter",
+            "display_name": "空间、路线与遭遇",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/space-encounter.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-rhythm-recovery",
+            "display_name": "节奏、失败与恢复",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/rhythm-recovery.md",
+            "origin": "self-authored",
+            "source_ids": [],
+            "no_finding_streak": 0
+        },
+        {
+            "perspective_id": "gd-theme-expression",
+            "display_name": "主题、角色与行动表达",
+            "domain": "game-design",
+            "status": "ready",
+            "path": "perspectives/domains/game-design/theme-expression.md",
             "origin": "self-authored",
             "source_ids": [],
             "no_finding_streak": 0

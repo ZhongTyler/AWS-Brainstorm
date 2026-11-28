@@ -18,6 +18,12 @@
 | 发散停滞，极端设计方向被心理审查过滤 | `worst-possible-idea` | 最差想法 + 每条的提取候选 |
 | 想法很多但主题不清 | `kj-affinity` | 主题、孤立项与覆盖缺口 |
 | 需要基于锚点比较候选 | `anchored-decision-matrix` | 评分、未知项、依据和决定分离的比较 |
+| 快速生成不同玩法片段 | `crazy-8s` | 八格候选与实质差异 |
+| 从中心主题展开有限层级 | `lotus-blossom` | 带父关系的方向树 |
+| 借跨域结构或所需特质 | `analogy / mashup / nm-method` | 来源、映射/背景原理、目标机制和失配 |
+| 需要有界接力或分开愿景与质疑 | `brainwriting-6-3-5 / disney-strategy` | 父稿/变形或愿景、实现、质疑与修订 |
+| 生成挑战序列与变化 | `ccst-challenge-design` | 技巧主题、质变/量变、组合与恢复 |
+| 安排谜题或任务依赖 | `puzzle-dependency-graph` | 条件、并行、瓶颈与知识到达 |
 
 ## Playbook lenses
 
@@ -44,3 +50,7 @@
 ## Concrete handoff
 
 方法输出交给用户前落到情境、行动/选择、可见后果，保留差异机制与来源。只展示足以获得回应的内容，内部可先探索更多。无新信息不为覆盖方法另开 Run；局部反馈不能自动成为整包接受。
+
+## 具体化入口
+
+[四条游戏操作配方](DESIGN_RECIPES.md)用于体验具体化、同盘减法、主题生成和学习链；[游戏视角](../../perspectives/README.md)按缺口选；[四类合成例](../../examples/co-creation/game-design-cases.md)展示有效、无增量与目标冲突。新卡不增加固定流程或改变采用权限。

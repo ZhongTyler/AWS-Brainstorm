@@ -30,3 +30,7 @@ Knowledge、Web 用于事实或参考缺口，GameAnalysisDecision 用于超出�
 - [组合模板](../../templates/game-concept-combinations.md)、[简报模板](../../templates/game-concept-brief.md)。
 - [合成正反例](../../examples/redesign-playbook-examples.md)。
 - [FromDemoToSpec adapter](../../adapters/fromdemotospec-handoff/README.md)：现行 v2 制作定义，交接不启动制作。
+
+## 游戏设计内容
+
+游戏内容入口：[操作配方](DESIGN_RECIPES.md)、[视角选择](../../perspectives/README.md)、[四类正反例](../../examples/co-creation/game-design-cases.md)、[来源与适配](../../docs/research/game-design-sources.md)。按问题选用，配方复用已有方法，不增加Method身份。
